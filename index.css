@@ -1,0 +1,80 @@
+/* Colores */
+:root {
+    --dark-brown: #272422;
+    --red: #d12f2b;
+    --green: #296044;
+    --light-green: #c6d9d1;
+    --light-gray: #e7e7e7;
+}
+
+/* Estilos */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--light-gray);
+    color: var(--dark-brown);
+}
+
+header {
+    background-color: var(--dark-brown);
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    color: var(--light-gray);
+    margin: 0;
+}
+
+.login-button {
+    background-color: var(--red);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.login-button:hover {
+    background-color: var(--green);
+}
+
+main {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+main h2 {
+    color: var(--dark-brown);
+}
+
+main p {
+    color: var(--green);
+}
+
+/*Pie de pagina*/
+footer {
+    background-color: var(--dark-brown);
+    color: var(--light-gray);
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Estilo para titulo*/
+.restaurant-name {
+    color: var(--light-gray);
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.restaurant-name:hover {
+    color: var(--light-green);
+}
